@@ -1,0 +1,12 @@
+{
+    "name": "PaywallKiller",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "Why should I pay for the content I consume daily?",
+    "content_scripts": [
+      {
+          "matches": ["*://*.hs.fi/*"],
+          "js": ["main.js"]
+      }
+    ]
+}
